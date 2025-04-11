@@ -14,7 +14,7 @@ public class perubahan {
         int total = 0;
         int count = 0;
         for (int a = 0; a<data.length; a++){
-            for (int b = 0; b<data.length; b++){
+            for (int b = 0; b<data[0].length; b++){
                 total += data[a][b];
                 count++;//menghitungjumlah elemen
             }
